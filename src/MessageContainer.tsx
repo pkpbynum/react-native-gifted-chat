@@ -21,7 +21,7 @@ import Message from './Message'
 import Color from './Color'
 import { User, IMessage, Reply } from './types'
 import { warning } from './utils'
-import TypingIndicator from './TypingIndicator'
+// import TypingIndicator from './TypingIndicator'
 
 const styles = StyleSheet.create({
   container: {
@@ -203,7 +203,7 @@ export default class MessageContainer<
   }
 
   renderTypingIndicator = () => {
-    return <TypingIndicator isTyping={this.props.isTyping || false} />
+    return <></>
   }
 
   renderFooter = () => {
